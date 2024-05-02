@@ -1,10 +1,8 @@
  <template>
   <div>
     <LayoutView />
-    <div class="h-[2000px]">
-     
-    </div>
-    
+ 
+
 
 
   </div>

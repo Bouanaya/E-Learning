@@ -1,6 +1,6 @@
 <template>
     <div class="nav">
-        <ul class="flex space-x-6">
+        <ul class="md:flex  space-x-6 hidden">
             <li>
                 <router-link to="/" class="text-lg">About</router-link>
             </li>
