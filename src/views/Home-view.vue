@@ -1,7 +1,7 @@
 <template>
     <div class="bg-white h-screen pt-[80px]">
         <div class=" md:grid grid-cols-2  container ">
-            <div class="pt-24  space-y-5 ">
+            <div class="md:pt-24 pt-12 space-y-5 ">
                 <h1 class="text-5xl w-[80%]">Groz your skill to advance your career path</h1>
                 <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias fugiat exercitationem ab
                     itaque soluta necessitatibus asperiores repudiandae in perspiciatis asperiores  </p>
