@@ -8,7 +8,7 @@
                 <h1 class="text-3xl">E-Learning</h1>
             </div>
             <Navigation></Navigation>
-            <div class="flex space-x-6  ">
+            <div class="md:flex hidden space-x-6  ">
 
                 <Button label="Sign In" severity="success" />
                 <Button label="Free Trial" style="color: white;" />
