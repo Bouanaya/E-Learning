@@ -16,6 +16,7 @@
                 </div>
                 <LearIng></LearIng>
                <Cours></Cours>
+               
             </div>
         </div>
     </section>
