@@ -4,7 +4,7 @@
             v-for="{ id, img, active, name, star, firstName, lastName, numberClass, numberStudents, prix, cotchImg, NoActive } in form"
             :key="id">
             <div class="">
-                <img :src='`/public/imgs/${img}`' class="rounded-xl" alt="">
+                <img :src='img' class="rounded-xl" alt="">
             </div>
             <div class="Cs">
                 <div class="flex justify-between items-center">
@@ -53,7 +53,7 @@
                     <div class="pt-5  border-t flex justify-between items-center">
                         <h1 class="font-semibold text-xl md:text-lg">{{ prix }} DH</h1>
                         <nav class="flex items-center gap-2">
-                            <img :src="`/public/imgs/${cotchImg}`" class="w-10 rounded-full" alt="">
+                            <img :src="cotchImg" class="w-10 rounded-full" alt="">
                             <button class="text-primary-500"> wade warren</button>
                         </nav>
                     </div>
@@ -70,7 +70,7 @@
 const form = [
     {
         id: 0,
-        img: "pexels-markusspiske-965345.jpg",
+        img: "/public/imgs/pexels-markusspiske-965345.jpg",
         active: true,
         NoActive: false,
 
@@ -81,11 +81,11 @@ const form = [
         numberClass: "18",
         numberStudents: "160",
         prix: "580",
-        cotchImg: "592b30.webp"
+        cotchImg: "/public/imgs/592b30.webp"
     },
     {
         id: 1,
-        img: "pexels-picjumbo-com-55570-196644.jpg",
+        img: "/public/imgs/pexels-picjumbo-com-55570-196644.jpg",
         active: true,
         NoActive: false,
         name: "UI/UX Design",
@@ -95,11 +95,11 @@ const form = [
         numberClass: "18",
         numberStudents: "160",
         prix: "580",
-        cotchImg: "592b30.webp"
+        cotchImg: "/public/imgs/592b30.webp"
     },
     {
         id: 2,
-        img: "pexels-divinetechygirl-1181671.jpg",
+        img: "/public/imgs/pexels-divinetechygirl-1181671.jpg",
         active: true,
         NoActive: false,
         name: "Data Science",
@@ -109,11 +109,11 @@ const form = [
         numberClass: "18",
         numberStudents: "160",
         prix: "580",
-        cotchImg: "592b30.webp"
+        cotchImg: "/public/imgs/592b30.webp"
     },
     {
         id: 3,
-        img: "pexels-paduret-1476321.jpg",
+        img: "/public/imgs/pexels-paduret-1476321.jpg",
         active: false,
         NoActive: true,
         name: "Machine",
@@ -123,11 +123,11 @@ const form = [
         numberClass: "14",
         numberStudents: "160",
         prix: "580",
-        cotchImg: "592b30.webp"
+        cotchImg: "/public/imgs/592b30.webp"
     },
     {
         id: 4,
-        img: "pexels-designecologist-1779487.jpg",
+        img: "/public/imgs/pexels-designecologist-1779487.jpg",
         active:true,
         NoActive:false,
         name: "Design Thinking",
@@ -137,11 +137,11 @@ const form = [
         numberClass: "17",
         numberStudents: "160",
         prix: "280",
-        cotchImg: "592b30.webp"
+        cotchImg: "/public/imgs/592b30.webp"
     },
     {
         id: 5,
-        img: "pexels-pixabay-38544.jpg",
+        img: "/public/imgs/pexels-pixabay-38544.jpg",
         active: false,
         NoActive: true,
         name: "Banner Design",
@@ -151,7 +151,7 @@ const form = [
         numberClass: "10",
         numberStudents: "100",
         prix: "780",
-        cotchImg: "592b30.webp"
+        cotchImg: "/public/imgs/592b30.webp"
     },
 
 ]
