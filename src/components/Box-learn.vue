@@ -81,11 +81,11 @@ const form = [
         numberClass: "18",
         numberStudents: "160",
         prix: "580",
-        cotchImg: "/public/imgs/592b30.webp"
+        cotchImg: "/imgs/592b30.webp"
     },
     {
         id: 1,
-        img: "/public/imgs/pexels-picjumbo-com-55570-196644.jpg",
+        img: "/imgs/pexels-picjumbo-com-55570-196644.jpg",
         active: true,
         NoActive: false,
         name: "UI/UX Design",
@@ -95,11 +95,11 @@ const form = [
         numberClass: "18",
         numberStudents: "160",
         prix: "580",
-        cotchImg: "/public/imgs/592b30.webp"
+        cotchImg: "/imgs/592b30.webp"
     },
     {
         id: 2,
-        img: "/public/imgs/pexels-divinetechygirl-1181671.jpg",
+        img: "/imgs/pexels-divinetechygirl-1181671.jpg",
         active: true,
         NoActive: false,
         name: "Data Science",
@@ -109,11 +109,11 @@ const form = [
         numberClass: "18",
         numberStudents: "160",
         prix: "580",
-        cotchImg: "/public/imgs/592b30.webp"
+        cotchImg: "/imgs/592b30.webp"
     },
     {
         id: 3,
-        img: "/public/imgs/pexels-paduret-1476321.jpg",
+        img: "/imgs/pexels-paduret-1476321.jpg",
         active: false,
         NoActive: true,
         name: "Machine",
@@ -123,11 +123,11 @@ const form = [
         numberClass: "14",
         numberStudents: "160",
         prix: "580",
-        cotchImg: "/public/imgs/592b30.webp"
+        cotchImg: "/imgs/592b30.webp"
     },
     {
         id: 4,
-        img: "/public/imgs/pexels-designecologist-1779487.jpg",
+        img: "/imgs/pexels-designecologist-1779487.jpg",
         active:true,
         NoActive:false,
         name: "Design Thinking",
@@ -137,11 +137,11 @@ const form = [
         numberClass: "17",
         numberStudents: "160",
         prix: "280",
-        cotchImg: "/public/imgs/592b30.webp"
+        cotchImg: "/imgs/592b30.webp"
     },
     {
         id: 5,
-        img: "/public/imgs/pexels-pixabay-38544.jpg",
+        img: "/imgs/pexels-pixabay-38544.jpg",
         active: false,
         NoActive: true,
         name: "Banner Design",
@@ -151,7 +151,7 @@ const form = [
         numberClass: "10",
         numberStudents: "100",
         prix: "780",
-        cotchImg: "/public/imgs/592b30.webp"
+        cotchImg: "/imgs/592b30.webp"
     },
 
 ]
