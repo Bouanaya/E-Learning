@@ -70,7 +70,7 @@
 const form = [
     {
         id: 0,
-        img: "/public/imgs/pexels-markusspiske-965345.jpg",
+        img: "/imgs/pexels-markusspiske-965345.jpg",
         active: true,
         NoActive: false,
 
