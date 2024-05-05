@@ -1,6 +1,6 @@
 <template>
     <div class="bg-primary-200 mt-5 cours">
-        <div class="py-14 container ">
+        <div class="pt-14  container ">
             <div class="flex justify-between items-center">
                 <h1 class=" text-3xl md:text-5xl">Most Popular Courses</h1>
                 <button class="flex items-center text-primary-400 md:text-lg text-sm  "><span

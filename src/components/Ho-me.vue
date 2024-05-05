@@ -13,7 +13,7 @@
                     </button>
                 </div>
                 <div class="pt-10">
-                    <img src="/public/imgs/undraw_online_learning_re_qw08 (1).svg" alt="">
+                    <img src="/public/imgs/undraw_education_f8ru.svg" alt="">
 
                 </div>
             </div>
