@@ -31,29 +31,33 @@
         <div class="h-2 bg-primary-50 blur-sm duration-500 w-full " v-if="Shadow">
 
         </div>
-        <div class="absolute  -right-[200%] w-screen flex justify-end h-screen duration-1000    md:hidden z-50  "
-            :class="{ ShowMen: ShowMenu }" @click.stop="showM">
-            <div class="w-screen">
-                <div class="flex justify-end">
-                    <ul
-                        class=" space-y-6 bg-primary-300  w- px-8 py-4 z-50 rounded-tl-lg rounded-bl-lg flex justify-center flex-col items-center ">
+        <div class="absolute  -right-[200%] w-screen flex justify-end duration-500 h-screen  md:hidden z-50  "
+            @click.stop="showM" @scroll.prevent="handleScroll" :class="{ ShowMen: ShowMenu }">
+            <div class="w-screen h-screen bg-black">
+                <div class="flex  w-full h-full">
+                    <ul class=" space-y-6 bg-primary-300   px-8 py-8 z-50   flex   flex-col w-3/4">
                         <li class="">
-                            <router-link to="/" class="text-lg font-semibold ">About</router-link>
+                            <router-link to="/" class=" text-xl">About</router-link>
                         </li>
                         <li>
-                            <router-link to="/" class="text-lg font-semibold">Features</router-link>
+                            <router-link to="/" class=" text-xl">Features </router-link>
                         </li>
                         <li>
-                            <router-link to="/" class="text-lg font-semibold">Pricing</router-link>
+                            <router-link to="/" class=" text-xl">Pricing</router-link>
                         </li>
                         <li>
-                            <router-link to="/" class="text-lg font-semibold">Testimonial</router-link>
+                            <router-link to="/" class=" text-xl"> Testimonial</router-link>
                         </li>
-                        <li>
-                            <router-link to="/" class="text-lg font-semibold">Contact</router-link>
+                        <li class="">
+                            <router-link to="/" class=" text-xl">
+                                Contact
+                            </router-link>
                         </li>
                     </ul>
+
+
                 </div>
+
             </div>
         </div>
     </nav>
@@ -68,13 +72,14 @@ h1 {
 
 .show {
     background-color: rgb(236 253 245);
-    transition-duration: 0.5s;
+     
 }
 
 .ShowMen {
-    left: 0;
-    transition-duration: 5s;
+right:0;
+    transition:0.3s ease;
 }
+
 </style>
 
 <script setup>
@@ -87,6 +92,9 @@ const Shadow = ref(false);
 const ShowMenu = ref(false);
 const showM = () => {
     ShowMenu.value = !ShowMenu.value
+}
+const handleScroll =(e)=>{
+    e.stopPropagation()
 }
 document.addEventListener("scroll", () => {
     let bodyPostionTop = document.body.getBoundingClientRect().top;
