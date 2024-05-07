@@ -16,6 +16,9 @@
                 </div>
                 <LearIng></LearIng>
                <Cours></Cours>
+               <Certificat></Certificat>
+               <Instructor></Instructor>
+
                
             </div>
         </div>
@@ -26,7 +29,8 @@
 import Carousel from '../components/Carousel-logo.vue'
 import LearIng from './Lear-ing.vue';
 import Cours from './Cou-rs.vue';
-
+import Certificat from '../components/Certi-ficat.vue'
+import Instructor from '../components/Instru-ctor.vue'
 </script>
 
 <style >

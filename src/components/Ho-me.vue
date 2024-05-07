@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class=" md:h-screen  pt-[80px]">
+        <div class=" md:h-screen  pt-[80px] ">
             <div class=" md:grid grid-cols-2  container ">
                 <div class="md:pt-24 pt-12 space-y-5 ">
                     <h1 class="text-5xl md:w-[80%]">Groz your skill to advance your career path</h1>
@@ -32,6 +32,7 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+ 
 
 p {
     font-family: "Poppins", sans-serif;

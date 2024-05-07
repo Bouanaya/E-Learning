@@ -66,7 +66,7 @@
 const form = [
     {
         id: 0,
-        img: "/imgs/pexels-markusspiske-965345.jpg",
+        img: "/imgs/pexels-divinetechygirl-1181467.jpg",
         active: true,
         NoActive: false,
 
