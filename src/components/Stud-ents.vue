@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class=" py-8 container">
-            <div class="flex justify-between items-center ">
+            <div class="flex justify-between items-center md:container ">
                 <h1 class="text-2xl md:text-5xl">Testimoni from our students</h1>
                 <nav class="flex md:gap-4 gap-2">
                     <button class="rounded-full bg-primary-300 p-2" @click="myCarousel.prev()"><svg
@@ -24,7 +24,7 @@
 
                 <Carousel :itemsToShow="3" :wrapAround="false" :transition="500" v-bind="settings"
                     :breakpoints="breakpoints" ref="myCarousel">
-                    <Slide v-for="slide in 10" :key="slide">
+                    <Slide v-for="slide in 4" :key="slide">
                         <div class="carousel__item">
                             <div class="">
                                 <div class="flex space-x-4 items-center">
