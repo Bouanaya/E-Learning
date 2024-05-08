@@ -1,6 +1,6 @@
 <template>
-    <div class="container py-6">
-        <div class="flex justify-between items-center">
+    <div class=" pt-8 container">
+        <div class="flex justify-between items-center ">
             <h1 class="text-2xl md:text-5xl">Meet our instructor</h1>
             <nav class="flex md:gap-4 gap-2">
                 <button class="rounded-full bg-primary-300 p-2" @click="myCarousel.prev()"><svg
@@ -17,14 +17,13 @@
                 </button>
             </nav>
         </div>
-        <div class="pt-6">
+        <div class="">
             <Carousel v-bind="settings" :breakpoints="breakpoints" ref="myCarousel">
 
                 <Slide v-for=" {id , name ,color,img} in data" :key="id">
                     <div class="flex flex-col py-6">
                         <div class="rounded-t-full    flex justify-center   " :style="{backgroundColor: color}">
-                            <img :src="img" alt=""
-                                class="">
+                            <img :src="img" alt="" class="">
 
                         </div>
                         <div class="text-center py-2">

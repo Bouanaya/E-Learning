@@ -18,6 +18,7 @@
                <Cours></Cours>
                <Certificat></Certificat>
                <Instructor></Instructor>
+               <Students></Students>
 
                
             </div>
@@ -31,6 +32,7 @@ import LearIng from './Lear-ing.vue';
 import Cours from './Cou-rs.vue';
 import Certificat from '../components/Certi-ficat.vue'
 import Instructor from '../components/Instru-ctor.vue'
+import Students from '../components/Stud-ents.vue'
 </script>
 
 <style >
