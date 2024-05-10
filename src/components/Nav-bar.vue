@@ -33,7 +33,7 @@
         </div>
         <div class="absolute  -right-[200%] w-screen flex justify-end duration-500 h-screen  md:hidden z-50  "
             @click.stop="showM" @scroll.prevent="handleScroll" :class="{ ShowMen: ShowMenu }">
-            <div class="w-screen h-screen bg-black">
+            <div class="w-screen h-screen bg-[#141E16]">
                 <div class="flex  w-full h-full">
                     <ul class=" space-y-6 bg-primary-300   px-8 py-8 z-50   flex   flex-col w-3/4">
                         <li class="">
