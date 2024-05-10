@@ -105,7 +105,7 @@
 
 
         </div>
-        <div class="md:px-8 px-4 flex justify-between items-center py-4 text-white">
+        <div class="md:px-8 px-4 flex justify-between items-center py-4 text-white container">
             <h1 class="text-sm  ">&copy; 2024.E-Learning.All rights reserved</h1>
             <div class="md:flex space-x-6 hidden ">
                 <h2>Privacy policy</h2>
