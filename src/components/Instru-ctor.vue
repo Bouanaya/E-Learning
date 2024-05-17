@@ -46,7 +46,6 @@
 
 
 </template>
- 
 <script setup>
  
 import { Carousel, Slide } from 'vue3-carousel'
@@ -106,7 +105,7 @@ const breakpoints = {
     },
     // 1024 and up
     1024: {
-        itemsToShow: 4,
+        itemsToShow: 4.3,
         snapAlign: 'center',
     },
 
@@ -118,10 +117,7 @@ const breakpoints = {
 <style>
  .carousel__track {
     gap: 20px;
-    
-    
-
 }
-
+ 
 
 </style>
